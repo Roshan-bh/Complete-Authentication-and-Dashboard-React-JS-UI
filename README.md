@@ -5,7 +5,7 @@
 
 ## Acknowledgements
 
- - This project was bootstrapped with [Create React App]
+ - This project is bootstrapped with [Create React App]
  - Simple clone or download the zip file to test the project.
  - Can be Intergrated with backend technology.
  - Customize it by API intergration with backend technology for complete authentication app.
