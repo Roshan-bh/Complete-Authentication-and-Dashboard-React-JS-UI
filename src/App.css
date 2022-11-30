@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(156, 172, 187);
+}
+/* CSS for navbar starts */
+.navbar-brand:focus,
+.navbar-brand:hover{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.text-color{
+    color: white;
+    border-radius: 17px;
+    letter-spacing: 1px;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link:focus,
+.nav-link:hover{
+   
+    background-color: rgb(156, 172, 187);
+    border-radius: 17px;
+    color: rgb(234, 228, 228);
+    font-weight: bold;
+    letter-spacing: 2px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-property{
+    height: 50vh;
+    width: auto;
+}
+.header-space{
+    letter-spacing: 2px;
+}
+/* CSS for navbar starts */
+
+/* Form input elements css starts*/
+.form-control{
+    background-color: transparent;
+    border-color: black;
+}
+.form-control:hover{
+    background-color: rgb(242, 240, 240);
+    border-color: black;
+}
+.form-check-input{
+    background-color: rgb(148, 147, 147);
+    border-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-check-input:hover{
+    background-color: rgb(148, 147, 147);
+    border-color: black;
+}
+/* Form input elements css ends*/
+
+
+ /* Css for sidebar starts*/
+.sidebar{
+    background-color: rgb(96, 109, 109);
+    color: white;
+    height: 100vh;
+}
+.link-text{
+   
+    color: whitesmoke;
+    font-size: 17px;
+    padding:13px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+.bar{
+    font-size: large;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.link-text:hover{
+   background-color: rgb(50, 51, 53);
+   transition: 0.2s cubic-bezier(0.6,-0.28,0.735,0.045);
+   border-radius: 50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ /* Css for sidebar ends*/
+
+ 
+ /* Css for contact page starts*/
+.img-logo{
+    border: 5px solid dark;
 }
+.text{
+    letter-spacing: 8px;
+    font-size:xx-large;
+}
+/* Css for contact page ends*/
